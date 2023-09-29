@@ -1,10 +1,10 @@
-package apidiochallenge;
+package application;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ApiDioChallengeApplicationTests {
+class Application {
 
 	@Test
 	void contextLoads() {

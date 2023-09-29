@@ -1,13 +1,13 @@
-package apidiochallenge;
+package application;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ApiDioChallengeApplication {
+public class Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ApiDioChallengeApplication.class, args);
+		SpringApplication.run(Application.class, args);
 	}
 
 }
