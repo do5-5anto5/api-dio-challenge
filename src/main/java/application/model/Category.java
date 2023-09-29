@@ -1,7 +1,6 @@
 package application.model;
 
 import jakarta.persistence.*;
-import org.springframework.boot.autoconfigure.web.WebProperties;
 
 import java.util.List;
 
@@ -15,7 +14,7 @@ public class Category {
     private String name;
 
     @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
-    private List<MenuItem> items;
+    private List<Item> items;
 
     public String getName() {
         return name;
@@ -25,11 +24,11 @@ public class Category {
         this.name = name;
     }
 
-    public List<MenuItem> getItems() {
+    public List<Item> getItems() {
         return items;
     }
 
-    public void setItems(List<MenuItem> items) {
+    public void setItems(List<Item> items) {
         this.items = items;
     }
 }

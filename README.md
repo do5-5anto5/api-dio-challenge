@@ -11,7 +11,7 @@ classDiagram
     +name: String
     +items: MenuItem[]
   }
-  class MenuItem {
+  class Item {
     -name: String
     -description: String
   }
